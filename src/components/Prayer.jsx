@@ -3,7 +3,7 @@ import { Card, CardContent, CardMedia, Typography } from '@mui/material'
 const Prayer = ({name,time,image}) => {
     
   return (
-        <Card sx={{maxWidth:345}} style={{marginInline:"30px" ,marginTop:'14px'}}>
+        <Card sx={{maxWidth:365}} style={{marginInline:"30px" ,marginTop:'14px'}}>
             <CardMedia 
                 sx={{height:140}}
                 image={image}
